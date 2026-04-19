@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MinecraftDownloader.Core/MinecraftDownloader.Core.csproj" />
+  <Project Path="MinecraftDownloader.Test/MinecraftDownloader.Test.csproj" />
+</Solution>
