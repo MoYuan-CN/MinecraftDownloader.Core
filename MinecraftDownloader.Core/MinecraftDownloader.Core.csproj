@@ -1,13 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
     <PropertyGroup>
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <OutputType>Library</OutputType>
+        <RepositoryUrl>https://github.com/MoYuan-CN/MinecraftDownloader.Core</RepositoryUrl>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <PackageId>MinecraftDownloader.Core</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>MoYuan-CN</Authors>
+        <Description>An awesome library for downloading Minecraft</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
-
     <ItemGroup>
         <InternalsVisibleTo Include="MinecraftDownloader.Test"/>
+        <None Include="README.md" Pack="true" PackagePath="\"/>
     </ItemGroup>
-
 </Project>
